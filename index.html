@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rose Mae Rama — Brand & Web Designer | Portfolio</title>
+  <meta name="description"
+    content="Personal portfolio of Rose Mae Rama, Brand & Web Designer. Explore selected branding, web design, and UI/UX projects.">
+  <meta name="author" content="Rose Mae Rama">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='70' font-weight='800' fill='%23E36344'>ROWSI.</text></svg>">
+</head>
+
+<body>
+
+  <!-- Browser Navigation Bar -->
+  <header class="site-header" id="header">
+    <div class="container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Rose Mae Rama Home">
+        <span class="logo-text" id="brandLogoText">ROWSI<span class="dot">.</span></span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-links" id="navLinks" aria-label="Main Navigation">
+        <a href="#work" class="nav-link active">Work</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#testimonials" class="nav-link">Reviews</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- CTA Button -->
+      <div class="nav-cta">
+        <a href="#contact" class="pill-btn pill-btn-header" id="headerTalkBtn">
+          Let's talk <span class="arrow-up-right">↗</span>
+        </a>
+        <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu"
+          aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="hero-bg-glow hero-bg-glow-top"></div>
+      <div class="hero-bg-glow hero-bg-glow-right"></div>
+
+      <div class="container hero-container">
+        <!-- Hero Left Column: Intro & Info -->
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="hero-greeting" id="heroGreeting">Hi, I'm</span>
+            <span class="hero-name" id="heroName">Rose Mae Rama<span class="name-dot">.</span></span>
+          </h1>
+
+          <div class="hero-role-wrapper">
+            <p class="hero-role" id="heroRole">Web Designer</p>
+          </div>
+
+          <p class="hero-bio" id="heroBio">
+            I help startups and creative brands build thoughtful identities and digital experiences that connect.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#work" class="pill-btn pill-btn-primary" id="heroWorkBtn">
+              View my work <span class="arrow-right">→</span>
+            </a>
+            <a href="#about" class="pill-btn pill-btn-outline" id="heroAboutBtn">
+              About me <span class="user-icon" aria-hidden="true">👤</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Circular Portrait & Availability Card -->
+        <div class="hero-visual">
+          <div class="portrait-halo"></div>
+          <div class="portrait-container">
+            <img src="assets/images/profilepic.jpg" class="hero-portrait" id="heroPortraitImg" loading="eager">
+          </div>
+
+          <!-- Floating Glassmorphic Status Card -->
+          <div class="floating-status-card" id="statusCard">
+            <div class="status-badge">
+              <span class="status-pulse-dot" aria-hidden="true"></span>
+              <span class="status-text" id="availabilityStatus">Available for work</span>
+            </div>
+            <p class="status-description" id="availabilityDesc">
+              I'm currently accepting new projects for May 2026.
+            </p>
+            <button class="status-resume-btn" id="heroResumeBtn" aria-label="Download Rose Mae Rama Resume">
+              <span>→</span> Download Resume
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trusted By / Tech Stack Marquee Section -->
+    <section class="trusted-section" aria-label="Clients and Technology Stack">
+      <div class="container trusted-container">
+        <span class="trusted-label" id="trustedLabel">Trusted by</span>
+        <div class="trusted-logos" id="trustedLogos">
+          <div class="logo-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+              <path d="M2 12h20" />
+            </svg>
+            <span>frame</span>
+          </div>
+          <div class="logo-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M22 17.5v-11L12 .5 2 6.5v11l10 6 10-6zM12 3.2 19.5 7.6 12 12 4.5 7.6 12 3.2z" />
+            </svg>
+            <span>webflow</span>
+          </div>
+          <div class="logo-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52zM6.313 15.165a2.527 2.527 0 0 1 2.521-2.52 2.527 2.527 0 0 1 2.521 2.52v6.313A2.528 2.528 0 0 1 8.834 24a2.528 2.528 0 0 1-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 0 1-2.521-2.52A2.528 2.528 0 0 1 8.834 0a2.528 2.528 0 0 1 2.521 2.522v2.52H8.834zM8.834 6.313a2.528 2.528 0 0 1 2.521 2.521 2.528 2.528 0 0 1-2.521 2.521H2.522A2.528 2.528 0 0 1 0 8.834a2.528 2.528 0 0 1 2.522-2.521h6.312z" />
+            </svg>
+            <span>slack</span>
+          </div>
+          <div class="logo-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M4.459 4.208c.746.606 1.026.56 2.428.466l13.215-.793c.28 0 .047-.28-.093-.373L17.72 1.41a2.64 2.64 0 0 0-1.819-.747L3.06 1.457c-.42.046-.513.326-.373.652l1.772 2.099zm1.772 4.198v13.633c0 .84.42 1.165 1.259 1.119l14.288-.84c.839-.046 1.072-.606 1.072-1.353V7.24l-16.619 1.166zm12.378 1.492c.046.28.046.606-.187.652l-.84.14v9.658c-.466.28-.933.42-1.353.42-.7 0-.98-.28-1.54-.98l-4.57-7.14v7.094l1.353.28s0 .606-.886.606l-2.613-.14c-.047-.28 0-.606.28-.653l.886-.14V9.897l-1.073-.093c-.046-.327.14-.653.607-.653l2.846.14 4.805 7.42V10.13l-1.12-.14c-.046-.28.14-.653.606-.653l2.798.14z" />
+            </svg>
+            <span>Notion</span>
+          </div>
+          <div class="logo-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="3" />
+              <circle cx="19" cy="12" r="2" />
+              <circle cx="5" cy="12" r="2" />
+              <circle cx="12" cy="19" r="2" />
+              <circle cx="12" cy="5" r="2" />
+            </svg>
+            <span>loom</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Work Section -->
+    <section class="work-section" id="work">
+      <div class="container work-container">
+        <!-- Section Header -->
+        <div class="section-top-row">
+          <div class="section-title-wrap">
+            <span class="section-eyebrow">SELECTED WORK</span>
+            <h2 class="section-heading">Designing digital experiences that make an impact.</h2>
+          </div>
+          <a href="#work" class="pill-btn pill-btn-ghost view-all-link" id="viewAllProjectsBtn">
+            View all projects <span class="arrow-right">→</span>
+          </a>
+        </div>
+
+        <!-- 3-Column Projects Grid matching reference design -->
+        <div class="projects-grid" id="projectsGrid">
+
+          <!-- Project Card 1: Rowsi Routes -->
+          <article class="project-card" data-project="rose">
+            <div class="project-thumbnail-wrapper">
+              <img src="assets/images/rowsiroutes.png" alt="Rowsi Routes project preview" class="project-thumbnail"
+                loading="lazy">
+              <span class="project-category-badge">Branding</span>
+            </div>
+            <div class="project-card-footer">
+              <div class="project-meta">
+                <h3 class="project-title">Rowsi Routes</h3>
+                <p class="project-subtitle">Branding &amp; Navigation</p>
+              </div>
+              <button class="project-arrow-btn" aria-label="View Rowsi Routes project details" data-open-modal="rose">
+                <span class="arrow-icon">›</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Project Card 2: Digital Game Store -->
+          <article class="project-card" data-project="helix">
+            <div class="project-thumbnail-wrapper">
+              <img src="assets/images/digitalgamestore.png" alt="Digital Game Store website design"
+                class="project-thumbnail" loading="lazy">
+              <span class="project-category-badge">Web Design</span>
+            </div>
+            <div class="project-card-footer">
+              <div class="project-meta">
+                <h3 class="project-title">Digital Game Store</h3>
+                <p class="project-subtitle">Website Design</p>
+              </div>
+              <button class="project-arrow-btn" aria-label="View Digital Game Store project details"
+                data-open-modal="helix">
+                <span class="arrow-icon">›</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Project Card 3: Figma Design -->
+          <article class="project-card" data-project="momentum">
+            <div class="project-thumbnail-wrapper">
+              <img src="assets/images/figma.png" alt="Figma UI/UX Design Interface" class="project-thumbnail"
+                loading="lazy">
+              <span class="project-category-badge">UI/UX</span>
+            </div>
+            <div class="project-card-footer">
+              <div class="project-meta">
+                <h3 class="project-title">Figma Design</h3>
+                <p class="project-subtitle">UI/UX Prototype</p>
+              </div>
+              <button class="project-arrow-btn" aria-label="View Figma Design project details"
+                data-open-modal="momentum">
+                <span class="arrow-icon">›</span>
+              </button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial / Social Proof Banner matching reference design -->
+    <section class="testimonial-section" id="testimonials">
+      <div class="container">
+        <div class="testimonial-card" id="testimonialCard">
+          <div class="quote-symbol" aria-hidden="true">“</div>
+          <div class="testimonial-main">
+            <blockquote class="testimonial-quote" id="testimonialText">
+              Rose is an exceptional designer who delivers clean, strategic work that elevates our brand every time.
+            </blockquote>
+          </div>
+          <div class="testimonial-author-row">
+            <div class="author-info">
+              <img src="assets/images/james_carter.jpg" alt="James Carter profile" class="author-avatar"
+                id="testimonialAvatar">
+              <div class="author-text">
+                <h4 class="author-name" id="testimonialName">John Ariel Ramos</h4>
+                <p class="author-role" id="testimonialRole">Frontend, Backend, App developer</p>
+              </div>
+            </div>
+            <!-- Testimonial carousel dots -->
+            <div class="carousel-dots" role="tablist" aria-label="Testimonial slider controls">
+              <button class="dot-btn active" data-index="0" role="tab" aria-selected="true"
+                aria-label="Testimonial 1"></button>
+              <button class="dot-btn" data-index="1" role="tab" aria-selected="false"
+                aria-label="Testimonial 2"></button>
+              <button class="dot-btn" data-index="2" role="tab" aria-selected="false"
+                aria-label="Testimonial 3"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Skills Section (Fulfills Student Assignment Requirements) -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Background & Story -->
+          <div class="about-text-column">
+            <span class="section-eyebrow">ABOUT ME</span>
+            <h2 class="section-heading-sm" id="aboutHeading">Crafting human-centered digital experiences with purpose.
+            </h2>
+            <div class="about-paragraphs" id="aboutBioContent">
+              <p>
+                Hello! I am a passionate designer and frontend developer focused on bridging aesthetics with functional
+                code. With an eye for typography, micro-interactions, and accessibility, I turn complex problems into
+                effortless digital products.
+              </p>
+              <p>
+                I am actively learning modern web architecture, interactive animation, and design systems. My goal is to
+                collaborate with forward-thinking teams to build tools that empower users around the globe.
+              </p>
+            </div>
+
+            <!-- Quick Stats -->
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <span class="highlight-num">3+</span>
+                <span class="highlight-label">Years of Design & Code</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-num">3+</span>
+                <span class="highlight-label">Projects Completed</span>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-num">100%</span>
+                <span class="highlight-label">Commitment to Quality</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skills & Abilities Section -->
+          <div class="skills-column" id="skills">
+            <span class="section-eyebrow">SKILLS & EXPERTISE</span>
+            <h3 class="skills-subheading">Honest overview of current capabilities:</h3>
+
+            <div class="skills-categories">
+              <!-- Design Skills -->
+              <div class="skill-category-card">
+                <h4>Design & UI/UX</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">Figma</span>
+                  <span class="skill-tag">Design Systems</span>
+                  <span class="skill-tag">Visual Identity</span>
+                  <span class="skill-tag">Wireframing</span>
+                  <span class="skill-tag">Prototyping</span>
+                </div>
+              </div>
+
+              <!-- Frontend & Development Skills -->
+              <div class="skill-category-card">
+                <h4>Frontend Development</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">HTML5 & Semantic Markup</span>
+                  <span class="skill-tag">CSS3 / Flexbox & Grid</span>
+                  <span class="skill-tag">JavaScript (ES6+)</span>
+                  <span class="skill-tag">Responsive Design</span>
+                  <span class="skill-tag">Git & GitHub</span>
+                </div>
+              </div>
+
+              <!-- Workflow & Soft Skills -->
+              <div class="skill-category-card">
+                <h4>Workflow & Collaboration</h4>
+                <div class="skill-tags">
+                  <span class="skill-tag">Problem Solving</span>
+                  <span class="skill-tag">Continuous Learning</span>
+                  <span class="skill-tag">User Research</span>
+                  <span class="skill-tag">Agile Iteration</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Footer Section matching reference design -->
+    <footer class="site-footer" id="contact">
+      <div class="container footer-container">
+
+        <!-- Main Footer Row matching reference screenshot -->
+        <div class="footer-main-row">
+          <!-- Left: Call to action title -->
+          <div class="footer-left">
+            <h2 class="footer-headline" id="footerHeadline">Let's create something amazing together.</h2>
+            <p class="footer-subtext">Have a project in mind, a class inquiry, or just want to connect? My inbox is
+              always open.</p>
+          </div>
+
+          <!-- Center: Email and Contact details -->
+          <div class="footer-center">
+            <a href="mailto:ramarosemae3@gmail.com" class="footer-email-link"
+              id="footerEmailLink">ramarosemae3@gmail.com</a>
+            <p class="footer-phone" id="footerPhone">09912748872</p>
+            <div class="footer-contact-actions">
+              <button class="pill-btn pill-btn-sm pill-btn-outline" id="copyEmailBtn">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                Copy Email
+              </button>
+              <button class="pill-btn pill-btn-sm pill-btn-ghost" id="openContactFormBtn">
+                Send Quick Message
+              </button>
+            </div>
+          </div>
+
+          <!-- Right: Social Links matching icons in reference -->
+          <div class="footer-right">
+            <div class="social-links-grid">
+              <!-- Facebook -->
+              <a href="https://www.facebook.com/rosiee13" target="_blank" rel="noopener noreferrer"
+                class="social-circle-btn" aria-label="Facebook profile">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                </svg>
+              </a>
+              <!-- Instagram -->
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-circle-btn"
+                aria-label="Instagram profile">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+              <!-- GitHub -->
+              <a href="https://github.com/Rouwi" target="_blank" rel="noopener noreferrer" class="social-circle-btn"
+                aria-label="GitHub profile">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Copyright & Credits -->
+        <div class="footer-bottom-bar">
+          <p>© <span id="currentYear">2026</span> <span id="footerCopyrightName">Rose Mae Rama</span>. All rights
+            reserved.</p>
+          <p class="hosting-tip-link">
+            Published with free static hosting. <button class="link-btn-text" id="footerHostingBtn">Learn how to host
+              yours</button>
+          </p>
+        </div>
+
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- Modal 1: Project Details Modal (Classwork & Practice Project Details) -->
+  <div class="modal-backdrop" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalProjectTitle">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="closeProjectModal" aria-label="Close modal">&times;</button>
+      <div class="modal-body" id="modalProjectContent">
+        <!-- Injected dynamically via script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Resume Modal -->
+  <div class="modal-backdrop" id="resumeModal" role="dialog" aria-modal="true" aria-labelledby="modalResumeTitle">
+    <div class="modal-card modal-card-resume">
+      <button class="modal-close-btn" id="closeResumeModal" aria-label="Close resume">&times;</button>
+      <div class="resume-sheet">
+        <header class="resume-header">
+          <div>
+            <h2 id="modalResumeTitle" class="resume-name">Rose Mae Rama</h2>
+            <p class="resume-role" id="modalResumeRole">Brand & Web Designer | Frontend Enthusiast</p>
+            <p class="resume-meta">Toronto, Canada • rosemaerama@gmail.com • rowsi.design</p>
+          </div>
+          <button class="pill-btn pill-btn-primary pill-btn-sm" id="printResumeBtn">Print / Save PDF</button>
+        </header>
+
+        <section class="resume-section">
+          <h3>Summary & Focus</h3>
+          <p id="resumeSummaryText">Creative and analytical designer crafting digital experiences that harmonize brand
+            storytelling with modern web accessibility. Proven ability to translate complex design challenges into
+            responsive, production-ready interfaces.</p>
+        </section>
+
+        <section class="resume-section">
+          <h3>Education & Training</h3>
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <strong>Web Design & Interactive Media</strong>
+              <span>2024 – 2026</span>
+            </div>
+            <p class="resume-institution">Faculty of Design & Digital Arts</p>
+            <p>Relevant Coursework: Responsive Web Development, Human-Computer Interaction, Typography, Component
+              Systems.</p>
+          </div>
+        </section>
+
+        <section class="resume-section">
+          <h3>Selected Projects</h3>
+          <div class="resume-item">
+            <strong>Rowsi Routes</strong> — Developed brand identity, interactive route planning, and responsive
+            navigation experience.
+          </div>
+          <div class="resume-item">
+            <strong>Digital Game Store</strong> — Designed high-converting gaming storefront and product showcase
+            website.
+          </div>
+          <div class="resume-item">
+            <strong>Figma Design Prototype</strong> — Prototyped end-to-end interactive Gamio gamified learning platform
+            with complete UI component library.
+          </div>
+        </section>
+
+        <section class="resume-section">
+          <h3>Core Competencies</h3>
+          <p><strong>Design:</strong> UI/UX, Figma, Typography, Wireframing, User Testing, Visual Design.</p>
+          <p><strong>Code:</strong> HTML5, CSS3 (Grid/Flexbox), JavaScript (ES6+), Git, Responsive Optimization.</p>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Beginner Hosting Guide (Student Activity Requirement) -->
+  <div class="modal-backdrop" id="hostingGuideModal" role="dialog" aria-modal="true"
+    aria-labelledby="hostingGuideTitle">
+    <div class="modal-card modal-card-guide">
+      <button class="modal-close-btn" id="closeHostingGuide" aria-label="Close hosting guide">&times;</button>
+      <div class="guide-header">
+        <span class="badge-pill">Beginner Hosting Guide</span>
+        <h2 id="hostingGuideTitle">How to Publish Your Portfolio for Free</h2>
+        <p>Follow one of these three simple methods to publish your website online and submit your working link for your
+          student activity.</p>
+      </div>
+
+      <!-- Tab Buttons -->
+      <div class="guide-tabs" role="tablist">
+        <button class="guide-tab-btn active" data-tab="tab-github">Option 1: GitHub Pages</button>
+        <button class="guide-tab-btn" data-tab="tab-netlify">Option 2: Netlify Drop</button>
+        <button class="guide-tab-btn" data-tab="tab-vercel">Option 3: Vercel</button>
+      </div>
+
+      <!-- Tab Contents -->
+      <div class="guide-tab-content">
+        <!-- Tab 1: GitHub Pages -->
+        <div class="tab-pane active" id="tab-github">
+          <div class="guide-step">
+            <span class="step-num">1</span>
+            <div>
+              <strong>Create a free GitHub repository</strong>
+              <p>Sign in to <a href="https://github.com" target="_blank" rel="noopener">GitHub.com</a>, click <em>New
+                  Repository</em>, and name it <code>my-portfolio</code> (keep it Public).</p>
+            </div>
+          </div>
+          <div class="guide-step">
+            <span class="step-num">2</span>
+            <div>
+              <strong>Upload your project files</strong>
+              <p>Upload <code>index.html</code>, <code>styles.css</code>, <code>script.js</code>, and the
+                <code>assets/</code> folder directly to the root of the repository.
+              </p>
+            </div>
+          </div>
+          <div class="guide-step">
+            <span class="step-num">3</span>
+            <div>
+              <strong>Turn on GitHub Pages</strong>
+              <p>Go to <strong>Settings</strong> &gt; <strong>Pages</strong>. Under <em>Build and deployment</em>, set
+                Source to <strong>Deploy from a branch</strong> and select <code>main</code> (root), then click
+                <strong>Save</strong>.
+              </p>
+            </div>
+          </div>
+          <div class="guide-step">
+            <span class="step-num">4</span>
+            <div>
+              <strong>Get your live link</strong>
+              <p>In 1–2 minutes, your website will be live at:
+                <code>https://your-username.github.io/my-portfolio/</code>!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 2: Netlify Drop -->
+        <div class="tab-pane" id="tab-netlify">
+          <div class="guide-step">
+            <span class="step-num">1</span>
+            <div>
+              <strong>Open Netlify Drop (Easiest &amp; No Git Required)</strong>
+              <p>Visit <a href="https://app.netlify.com/drop" target="_blank" rel="noopener">app.netlify.com/drop</a> in
+                your browser.</p>
+            </div>
+          </div>
+          <div class="guide-step">
+            <span class="step-num">2</span>
+            <div>
+              <strong>Drag &amp; Drop your folder</strong>
+              <p>Drag your <code>portfolio1</code> project folder right into the browser window.</p>
+            </div>
+          </div>
+          <div class="guide-step">
+            <span class="step-num">3</span>
+            <div>
+              <strong>Instant Live URL</strong>
+              <p>Netlify immediately builds your site and gives you a free live URL (e.g.,
+                <code>https://alex-morgan-portfolio.netlify.app</code>). You can customize the name for free!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 3: Vercel -->
+        <div class="tab-pane" id="tab-vercel">
+          <div class="guide-step">
+            <span class="step-num">1</span>
+            <div>
+              <strong>Sign in to Vercel</strong>
+              <p>Go to <a href="https://vercel.com" target="_blank" rel="noopener">vercel.com</a> and sign in with your
+                GitHub account.</p>
+            </div>
+          </div>
+          <div class="guide-step">
+            <span class="step-num">2</span>
+            <div>
+              <strong>Import your repository</strong>
+              <p>Click <strong>Add New Project</strong> &gt; select your portfolio repo &gt; click
+                <strong>Deploy</strong>.
+              </p>
+            </div>
+          </div>
+          <div class="guide-step">
+            <span class="step-num">3</span>
+            <div>
+              <strong>Production Ready with automatic SSL</strong>
+              <p>Your site will deploy on a global edge CDN with a <code>.vercel.app</code> domain instantly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: Quick Contact Message Modal -->
+  <div class="modal-backdrop" id="contactFormModal" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+    <div class="modal-card modal-card-sm">
+      <button class="modal-close-btn" id="closeContactModal" aria-label="Close contact">&times;</button>
+      <h3 id="contactModalTitle">Send a Quick Note</h3>
+      <p class="modal-subtitle">Feel free to say hi or ask about my work!</p>
+      <form id="quickContactForm" class="contact-form">
+        <div class="form-group">
+          <label for="senderName">Your Name</label>
+          <input type="text" id="senderName" required placeholder="e.g. Jordan Smith">
+        </div>
+        <div class="form-group">
+          <label for="senderEmail">Your Email</label>
+          <input type="email" id="senderEmail" required placeholder="jordan@example.com">
+        </div>
+        <div class="form-group">
+          <label for="senderMessage">Message</label>
+          <textarea id="senderMessage" rows="4" required
+            placeholder="Hi Rose, I love your portfolio and would like to discuss..."></textarea>
+        </div>
+        <button type="submit" class="pill-btn pill-btn-primary full-width">Send Message</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Slide-out Drawer: Student Personalizer Panel -->
+  <aside class="personalizer-drawer" id="personalizerDrawer" aria-hidden="true">
+    <div class="drawer-header">
+      <div>
+        <h3>Personalize Portfolio</h3>
+        <p>Edit fields below to tailor this site with your own name, bio, and class projects.</p>
+      </div>
+      <button class="drawer-close-btn" id="closePersonalizerBtn">&times;</button>
+    </div>
+
+    <div class="drawer-body">
+      <div class="preset-buttons">
+        <button class="pill-btn pill-btn-sm pill-btn-outline" id="loadReferencePresetBtn">Load Rose Mae Rama</button>
+        <button class="pill-btn pill-btn-sm pill-btn-primary" id="loadStudentPresetBtn">Load Student Sample</button>
+      </div>
+
+      <form id="personalizerForm">
+        <div class="form-section-title">Personal Details</div>
+
+        <div class="form-group">
+          <label for="inputName">Full Name</label>
+          <input type="text" id="inputName" value="Rose Mae Rama">
+        </div>
+
+        <div class="form-group">
+          <label for="inputRole">Title / Role</label>
+          <input type="text" id="inputRole" value="Brand & Web Designer">
+        </div>
+
+        <div class="form-group">
+          <label for="inputLocation">Location / School</label>
+          <input type="text" id="inputLocation" value="based in Toronto, Canada.">
+        </div>
+
+        <div class="form-group">
+          <label for="inputBio">Hero Introduction / Focus</label>
+          <textarea id="inputBio"
+            rows="3">I help startups and creative brands build thoughtful identities and digital experiences that connect.</textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="inputEmail">Email Address</label>
+          <input type="email" id="inputEmail" value="rosemaerama@gmail.com">
+        </div>
+
+        <div class="form-group">
+          <label for="inputAvailability">Availability Notice</label>
+          <input type="text" id="inputAvailability" value="I'm currently accepting new projects for May 2026.">
+        </div>
+
+        <div class="drawer-actions">
+          <button type="submit" class="pill-btn pill-btn-primary full-width">Save & Apply Changes</button>
+          <button type="button" class="pill-btn pill-btn-ghost full-width" id="resetDefaultBtn">Reset to
+            Default</button>
+        </div>
+      </form>
+    </div>
+  </aside>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-notification" id="toastNotification" role="alert" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
